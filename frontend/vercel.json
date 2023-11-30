@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://ism-gram.onrender.com/api/$1",
+      "methods": ["GET", "POST", "PATCH", "DELETE"]
+    },
+    {
+     "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
