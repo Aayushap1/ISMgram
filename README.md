@@ -19,7 +19,6 @@ ISM Gram is a social media platform tailored for students of IIT ISM. It provide
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Authentication:** JSON Web Tokens (JWT)
-- **Deployment:** Heroku
 
 ## Installation
 
